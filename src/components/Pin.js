@@ -31,9 +31,8 @@ class Pin extends Component {
 
                 <View style={styles.PinContent}>
                     <LocalImage source={this.props.pinsource.imageSource}
-                    originalWidth={this.props.pinsource.originalWidth}
-                    originalHeight={this.props.pinsource.originalHeight}
-                    columns={this.props.columns}/>
+                    originalWidth={2000}
+                    originalHeight={625}/>
                 </View>
 
                 <View style={styles.PinMeta}>
